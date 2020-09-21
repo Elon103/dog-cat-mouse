@@ -6,8 +6,8 @@ function Cat(name){
 Cat.prototype.die = function(){
     this.dead = true;
 };
-Cat.prototype.eat = function(){
-    
+Cat.prototype.eat = function(name){
+    this.name = name
 };
-module.export = Cat;
+module.exports = Cat;
 //comment sadfasdf
